@@ -116,9 +116,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(final View view) {
             android.util.Log.d("Remote", "frequency: " + cmd.freq);
             android.util.Log.d("Remote", "pattern: " + Arrays.toString(cmd.pattern));
-            System.out.println("Starts IRCOmmand");
             irManager.transmit(cmd.freq, cmd.pattern);
-            System.out.println("Starts IRCOmmand");
         }
     }
 
