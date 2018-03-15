@@ -13,7 +13,8 @@ public class availableDevices extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_available_devices);
-        findViewById(R.id.adTVbtn).setOnClickListener(new myListener());
+        findViewById(R.id.adTVbtn).setOnClickListener(new myTmpListener());
+        findViewById(R.id.airConditionImageBTN).setOnClickListener(new mySecondListener());
     }
 
 
@@ -22,14 +23,26 @@ public class availableDevices extends AppCompatActivity {
 
     }
 
-    private class myListener implements View.OnClickListener {
-
-
+    private class myTmpListener implements View.OnClickListener {
 
         @Override
         public void onClick(final View view) {
             try {
-                Intent k = new Intent(availableDevices.this, MainActivity.class);
+                Intent k = new Intent(availableDevices.this, presentModels.class);
+                startActivity(k);
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+    private class mySecondListener implements View.OnClickListener {
+
+        @Override
+        public void onClick(final View view) {
+            try {
+                Intent k = new Intent(availableDevices.this, AirCondition.class);
                 startActivity(k);
             } catch(Exception e) {
                 e.printStackTrace();

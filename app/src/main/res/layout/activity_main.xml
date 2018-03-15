@@ -10,7 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingEnd="60dp"
+        android:paddingStart="60dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:background="@color/colorPrimaryDark">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,12 +31,11 @@
                 android:layout_weight="1"
                 android:padding="15dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/volumeadjustmentmute" />
+                android:src="@drawable/volumeadjustmentmute"/>
 
             <ImageButton
                 android:id="@+id/btnPower"
                 android:layout_width="0dp"
-
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="16dp"
@@ -236,7 +240,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:padding="5dp"
+                    android:padding="15dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/arrowright" />
 
@@ -262,7 +266,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:padding="5dp"
+                    android:padding="15dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/downloadarrow" />
 

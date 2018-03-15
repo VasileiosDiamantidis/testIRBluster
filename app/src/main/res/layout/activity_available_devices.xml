@@ -40,8 +40,8 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:text="TV" />
+                    android:text="TV"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
 
             <LinearLayout
@@ -51,7 +51,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/airConditionImageBTN"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -66,8 +66,8 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:text="Air Condition" />
+                    android:text="Air Condition"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
 
             <LinearLayout
@@ -92,8 +92,8 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:text="Home Cinema" />
+                    android:text="Home Cinema"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -125,8 +125,8 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:text="Projector" />
+                    android:text="Projector"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
 
             <LinearLayout
@@ -151,9 +151,9 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
 
-                    android:text="Cooler" />
+                    android:text="Cooler"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
 
             <LinearLayout
@@ -178,8 +178,8 @@
                     android:layout_weight="0.2"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:text="DVD Player" />
+                    android:text="DVD Player"
+                    android:autoSizeTextType="uniform"/>
             </LinearLayout>
         </LinearLayout>
 
