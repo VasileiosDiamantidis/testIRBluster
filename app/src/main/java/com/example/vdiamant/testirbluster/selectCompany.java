@@ -7,6 +7,10 @@ import android.view.View;
 
 public class selectCompany extends AppCompatActivity {
 
+    /**                            **
+    *not in use.. it will be deleted*
+    * *                            **/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

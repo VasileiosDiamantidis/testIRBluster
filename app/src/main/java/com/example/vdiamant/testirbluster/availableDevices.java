@@ -9,6 +9,13 @@ import java.util.Arrays;
 
 public class availableDevices extends AppCompatActivity {
 
+    /*
+        This class handles activity_available_devices.
+        Only thing it does is to transist to the device that the user choose (Air condition / TV)
+
+    */
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,6 +13,11 @@ import Model.CAirCondition;
 
 public class AirCondition extends AppCompatActivity {
 
+    /*
+        This is the class that handles activity_air_condition.
+        The codes are for Carrier Air condition and they don't work at company
+    */
+
 
     //These commands are from the site https://irdb.globalcache.com/Home/Database
     //They are for Carrier Air Condtitions
