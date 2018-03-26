@@ -5,9 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import java.util.Arrays;
-
-public class availableDevices extends AppCompatActivity {
+public class availableDevicesViewController extends AppCompatActivity {
 
     /*
         This class handles activity_available_devices.
@@ -35,7 +33,7 @@ public class availableDevices extends AppCompatActivity {
         @Override
         public void onClick(final View view) {
             try {
-                Intent k = new Intent(availableDevices.this, presentModels.class);
+                Intent k = new Intent(availableDevicesViewController.this, presentModels.class);
                 startActivity(k);
             } catch(Exception e) {
                 e.printStackTrace();
@@ -49,7 +47,7 @@ public class availableDevices extends AppCompatActivity {
         @Override
         public void onClick(final View view) {
             try {
-                Intent k = new Intent(availableDevices.this, AirCondition.class);
+                Intent k = new Intent(availableDevicesViewController.this, AirConditionViewController.class);
                 startActivity(k);
             } catch(Exception e) {
                 e.printStackTrace();

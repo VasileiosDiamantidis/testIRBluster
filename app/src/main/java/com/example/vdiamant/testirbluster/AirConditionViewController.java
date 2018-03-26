@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import Model.CAirCondition;
-
-public class AirCondition extends AppCompatActivity {
+public class AirConditionViewController extends AppCompatActivity {
 
     /*
         This is the class that handles activity_air_condition.
@@ -41,9 +39,9 @@ public class AirCondition extends AppCompatActivity {
 
 
     private class ClickListener implements View.OnClickListener {
-        private final AirCondition.IRCommand cmd;
+        private final AirConditionViewController.IRCommand cmd;
 
-        public ClickListener(final AirCondition.IRCommand cmd) {
+        public ClickListener(final AirConditionViewController.IRCommand cmd) {
             this.cmd = cmd;
         }
 
@@ -57,7 +55,7 @@ public class AirCondition extends AppCompatActivity {
     }
 
 
-    private AirCondition.IRCommand hex2ir(final String irData) {
+    private AirConditionViewController.IRCommand hex2ir(final String irData) {
         List<String> list = new ArrayList<String>(Arrays.asList(irData.split(" ")));
         list.remove(0); // dummy
         int frequency = Integer.parseInt(list.remove(0), 16); // frequency
@@ -74,7 +72,7 @@ public class AirCondition extends AppCompatActivity {
             pattern[i] = count * pulses;
         }
 
-        return new AirCondition.IRCommand(frequency, pattern);
+        return new AirConditionViewController.IRCommand(frequency, pattern);
     }
 
 
