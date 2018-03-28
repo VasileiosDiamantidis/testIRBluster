@@ -18,11 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".AirConditionViewController" />
-        <activity android:name=".presentModels" />
-        <activity android:name=".availableDevicesViewController" />
-        <activity android:name=".HomeSection.HomeSelectViewController"></activity>
+        <activity android:name=".RemoteControllers.TVcontrollerRemoteViewController" />
+        <activity android:name=".RemoteControllers.AirConditionViewController" />
+        <activity android:name=".PresentModels.presentModelsViewContorller" />
+        <activity android:name=".AvailableDevicesViewController" />
+        <activity android:name=".HomeSection.HomeSelectViewController" />
+        <activity android:name=".AddDevice"></activity>
     </application>
 
 </manifest>

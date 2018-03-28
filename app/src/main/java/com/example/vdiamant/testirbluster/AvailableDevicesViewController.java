@@ -5,7 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class availableDevicesViewController extends AppCompatActivity {
+import com.example.vdiamant.testirbluster.PresentModels.presentModelsViewContorller;
+import com.example.vdiamant.testirbluster.RemoteControllers.AirConditionViewController;
+
+public class AvailableDevicesViewController extends AppCompatActivity {
 
     /*
         This class handles activity_available_devices.
@@ -33,7 +36,7 @@ public class availableDevicesViewController extends AppCompatActivity {
         @Override
         public void onClick(final View view) {
             try {
-                Intent k = new Intent(availableDevicesViewController.this, presentModels.class);
+                Intent k = new Intent(AvailableDevicesViewController.this, presentModelsViewContorller.class);
                 startActivity(k);
             } catch(Exception e) {
                 e.printStackTrace();
@@ -47,7 +50,7 @@ public class availableDevicesViewController extends AppCompatActivity {
         @Override
         public void onClick(final View view) {
             try {
-                Intent k = new Intent(availableDevicesViewController.this, AirConditionViewController.class);
+                Intent k = new Intent(AvailableDevicesViewController.this, AirConditionViewController.class);
                 startActivity(k);
             } catch(Exception e) {
                 e.printStackTrace();
