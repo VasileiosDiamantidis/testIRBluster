@@ -23,7 +23,11 @@
         <activity android:name=".PresentModels.presentModelsViewContorller" />
         <activity android:name=".AvailableDevicesViewController" />
         <activity android:name=".HomeSection.HomeSelectViewController" />
-        <activity android:name=".AddDevice"></activity>
+        <activity android:name=".AddDevice" />
+        <activity android:name=".PopUpAddCommandActivity"
+            android:theme="@style/AppTheme.CustomTheme">
+
+        </activity>
     </application>
 
 </manifest>
